@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeplin'7S</title>
+
+    <!-- import from website other -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
+    <!-- import from local -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header class="bg-black shadow-2xl">
+        <nav class="container mx-auto p-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="/" class="flex items-center gap-3">
+                    <img src="img/logo.png" alt="" class="h-15 w-15">
+                    <span class="font-bold text-2xl text-violet-600 uppercase">Zeplin'7S</span>
+                </a>
+
+                <!-- Menu -->
+                <div class="flex gap-6 items-center">
+                    <a href="#" class="text-white hover:text-violet-700 transition-all duration-300">Home</a>
+                    <a href="#" class="text-white hover:text-violet-700 transition-all duration-300">About</a>
+                    <a href="#" class="text-white hover:text-violet-700 transition-all duration-300">Blog</a>
+                    <a href="#" class="text-white hover:text-violet-700 transition-all duration-300">Contact</a>
+                    <a href="#" class="text-white hover:text-violet-700 transition-all duration-300">Services</a>
+                    <!-- Signup Button -->
+                    <div class=" bg-violet-700 px-5 py-2 rounded-full">
+                        <a href="#" class="text-white font-semibold uppercase cursor-pointer">Signup</a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="w-full h-screen bg-cover bg-center"
+                style="background-image: url('img/main-photo.avif')">
+            <div class="flex flex-col gap-8 items-center justify-center h-full bg-black/50">
+
+                <p class="text-white uppercase text-2xl font-semibold">
+                    perform the greatest hits in music history.
+                </p>
+
+                <div class="bg-white/40 p-10 rounded-sm">
+                    <h1 class="text-black text-6xl font-semibold capitalize">
+                        make your own show
+                    </h1>
+                </div>
+
+                <div>
+                    <button class="text-white font-semibold bg-violet-700 px-10 py-3 rounded-md cursor-pointer shadow-2xl">
+                        Read More
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="w-full bg-neutral-900">
+            <div class="container mx-auto p-20 py-10">
+
+                <div class="bg-neutral-950 p-8 rounded-md pb-15">
+                    <div class="relative">
+                        <h1 class="text-white uppercase text-2xl ">About us</h1>
+                        <hr class="border-neutral-700 mt-5 mb-10">         
+                         <span class="absolute bg-violet-700 w-30 h-[3px] top-[50px]"></span>
+                    </div>
+
+                    <div class="grid grid-cols-2">
+                        <div>
+                            <p class="text-white/80 max-w-[600px]">Metallica is an American heavy metal band formed in Los Angeles, California. Metallica was formed in 1981 when vocalist/guitarist James Hetfield responded to an advertisement posted by drummer Lars Ulrich in a local newspaper. The band’s current line-up comprises founding members Hetfield and Ulrich, longtime lead guitarist Kirk Hammett and bassist Robert Trujillo. Guitarist Dave Mustaine and bassists Ron McGovney, Cliff Burton and Jason Newsted are former members of the band. The band’s fast tempos, instrumentals, and aggressive musicianship placed them as one of the founding “big four” bands of thrash metal, alongside Anthrax, Megadeth, and Slayer. Metallica earned a growing fan base in the underground music community and won critical acclaim with its first four albums; their third album Master of Puppets (1986) was described as one of the most influential and heaviest of thrash metal albums. The band expanded its musical direction and achieved substantial commercial success with…
+                            </p>
+                            
+                            <div>
+                                <button class="text-white font-semibold bg-violet-700 px-10 py-2 mt-5 rounded-md cursor-pointer shadow-2xl">
+                                    Read More
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center">
+                            <img src="img/people-short-photo.avif" alt="" 
+                            class="h-100 w-full object-cover">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="w-full bg-neutral-900 pb-10">
+            <div class="container mx-auto px-20">
+
+                <div class="bg-neutral-950 p-8 rounded-md">
+
+                    <div class="relative">
+                        <h1 class="text-white uppercase text-2xl ">Latest posts</h1>
+                        <hr class="border-neutral-700 mt-5 mb-10">         
+                         <span class="absolute bg-violet-700 w-40 h-[3px] top-[50px]"></span>
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-5">
+
+                        <!-- Post 1 -->
+                        <div>
+                            <!-- img -->
+                            <img src="img/post-1.avif" alt="" class="w-full object-cover h-80">
+
+                            <!-- tag -->
+                            <div class="flex flex-wrap items-center gap-2 max-w-[500px] mt-2">
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr bxs-user'></i> Zeplin</a>
+                                <span class="text-white">|</span>
+
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bx-clock-9'></i> July 18, 2018</a>
+                                <span class="text-white">|</span>
+
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-price-tag'></i> Music</a>
+                                <span class="text-white">|</span>
+
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-message-bubble-reply'></i> 0 Comment</a>
+                            </div>
+
+                            <!-- title -->
+                            <div>
+                                <h1 class="text-white font-semibold uppercase mt-5 mb-5">
+                                    Eric Johnson and Jonny Lang Lead 2014
+                                </h1>
+
+                                <!-- description -->
+                                <p class="text-white/60">
+                                    Pastrami venison shankle tenderloin boudin prosciutto pork chop. Corned beef beef ribs short ribs, hamburger jerky rump sausage pork loin…
+                                </p>
+
+                                <!-- button -->
+                                <div>
+                                    <button class="text-white font-semibold bg-violet-700 px-5 py-1.5 mt-5 rounded-md cursor-pointer shadow-2xl">
+                                        Read More
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Post 2 -->
+                        <div>
+                            <!-- img -->
+                            <img src="img/post-2.avif" alt="" class="w-full object-cover h-80">
+
+                            <!-- tag -->
+                            <div class="flex flex-wrap items-center gap-2 max-w-[500px] mt-2">
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr bxs-user'></i> Zeplin</a>
+                                <span class="text-white">|</span>
+
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bx-clock-9'></i> July 18, 2018</a>
+                                <span class="text-white">|</span>
+
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-price-tag'></i> Music</a>
+                                <span class="text-white">|</span>
+
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-message-bubble-reply'></i> 0 Comment</a>
+                            </div>
+
+                            <!-- title -->
+                            <div>
+                                <h1 class="text-white font-semibold uppercase mt-5 mb-5">
+                                    Eric Johnson and Jonny Lang Lead 2014
+                                </h1>
+
+                                <!-- description -->
+                                <p class="text-white/60">
+                                    Pastrami venison shankle tenderloin boudin prosciutto pork chop. Corned beef beef ribs short ribs, hamburger jerky rump sausage pork loin…
+                                </p>
+
+                                <!-- button -->
+                                <div>
+                                    <button class="text-white font-semibold bg-violet-700 px-5 py-1.5 mt-5 rounded-md cursor-pointer shadow-2xl">
+                                        Read More
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Post 3 -->
+                        <div>
+                            <!-- img -->
+                            <img src="img/post-3.avif" alt="" class="w-full object-cover h-80">
+
+                            <!-- tag -->
+                            <div class="flex flex-wrap items-center gap-2 max-w-[500px] mt-2">
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr bxs-user'></i> Zeplin</a>
+                                <span class="text-white">|</span>
+
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bx-clock-9'></i> July 18, 2018</a>
+                                <span class="text-white">|</span>
+
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-price-tag'></i> Music</a>
+                                <span class="text-white">|</span>
+
+                                <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-message-bubble-reply'></i> 0 Comment</a>
+                            </div>
+
+                            <!-- title -->
+                            <div>
+                                <h1 class="text-white font-semibold uppercase mt-5 mb-5">
+                                    Eric Johnson and Jonny Lang Lead 2014
+                                </h1>
+
+                                <!-- description -->
+                                <p class="text-white/60">
+                                    Pastrami venison shankle tenderloin boudin prosciutto pork chop. Corned beef beef ribs short ribs, hamburger jerky rump sausage pork loin…
+                                </p>
+
+                                <!-- button -->
+                                <div>
+                                    <button class="text-white font-semibold bg-violet-700 px-5 py-1.5 mt-5 rounded-md cursor-pointer shadow-2xl">
+                                        Read More
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-black">
+            <div class="container mx-auto px-30 py-10">
+                <div class="grid grid-cols-4">
+
+                    <!-- first -->
+                    <div class="mx-5">
+                        <div class="relative">
+                            <h1 class="text-white text-xl font-semibold">
+                                About Zeplin'7S
+                            </h1>
+                            <hr class="border-neutral-700 mt-5 mb-10 w-70">         
+                             <span class="absolute bg-violet-700 w-20 h-[3px] top-[47px]"></span>
+                        </div>
+    
+                        <p class="text-white/60 mt-5 max-w-[300px] text-md">
+                            Surplus Concert is a free, simple, trendy and fully responsive music wordpress theme. It is created specially for Music events, Concerts, Bands, Artists, Musicians or any other kind of music websites or Personal Blogs. Surplus Concert is easy to use, user friendly and allows you to fully customize your website without having to work with code.
+                        </p>
+                    </div>
+                    
+                    <!-- second -->
+                    <div class="mx-5">
+                        <div class="relative">
+                            <h1 class="text-white text-xl font-semibold">
+                                Recent Posts
+                            </h1>
+                            <hr class="border-neutral-700 mt-5 mb-10 w-70">         
+                             <span class="absolute bg-violet-700 w-20 h-[3px] top-[47px]"></span>
+                        </div>
+
+                        
+                        <div class="flex flex-col gap-3 mt-5">
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Featured Image as Header</a>
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Eric Johnson and Jonny Lang Lead 2014</a>
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Kevin Drew’s second solo album</a>
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Tickets To A Show With Nine Inch Nails</a>
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Win A Guitar Signed By Soundgarden</a>
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">2018 Summer Tour Guide</a>
+                        </div>
+                        
+                    </div>
+                    <!-- third -->
+                    <div class="mx-5">
+                        <div class="relative">
+                            <h1 class="text-white text-xl font-semibold">
+                                Music Categories
+                            </h1>
+                            <hr class="border-neutral-700 mt-5 mb-10 w-70">         
+                             <span class="absolute bg-violet-700 w-20 h-[3px] top-[47px]"></span>
+                        </div>                        
+    
+                        <div class="flex flex-col gap-3 mt-5">
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Instrumental</a>
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Jazz</a>
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Music</a>
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Pop Music</a>
+                            <a href="#" class="text-white hover:text-violet-700 transition-all duration-300 text-md">Rock</a>
+                        </div>
+                    </div>
+                    <!-- fourth -->
+                    <div class="mx-5">
+                        <div class="relative">
+                            <h1 class="text-white text-xl font-semibold">
+                                Gallery
+                            </h1>
+                            <hr class="border-neutral-700 mt-5 mb-10 w-70">         
+                             <span class="absolute bg-violet-700 w-20 h-[3px] top-[47px]"></span>
+                        </div> 
+
+    
+                        <div class="grid grid-cols-3 gap-2 mt-5                     ">
+                            <img src="img/gl-1.avif" alt="" class="h-25 w-full object-cover">
+                            <img src="img/gl-1.avif" alt="" class="h-25 w-full object-cover">
+                            <img src="img/gl-1.avif" alt="" class="h-25 w-full object-cover">
+                            <img src="img/gl-1.avif" alt="" class="h-25 w-full object-cover">
+                            <img src="img/gl-1.avif" alt="" class="h-25 w-full object-cover">
+                            <img src="img/gl-1.avif" alt="" class="h-25 w-full object-cover">
+                            <img src="img/gl-1.avif" alt="" class="h-25 w-full object-cover">
+                            <img src="img/gl-1.avif" alt="" class="h-25 w-full object-cover">
+                            <img src="img/gl-1.avif" alt="" class="h-25 w-full object-cover">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr class="border-neutral-700 mt-10">
+
+            <div class="flex items-center justify-center p-10">
+                <div class="text-white flex items-center gap-x-2">
+                    <p>© All Rights Reserved. Surplus Concert by</p> <a href="#" class="text-violet-700">Zeplin</a> <span>| Powered by</span> <a href="#" class="text-violet-700">WordPress</a>.
+                </div>
+            </div>
+        
+    </footer>
+
+</body>
+</html>
