@@ -1,0 +1,157 @@
+<div class="grid grid-cols-3"> <!--grid grid-cols-4 gap-6-->
+                    <div class="grid grid-cols-2"> <!--grid grid-cols-2 col-span-3 gap-x-30 gap-y-6 -->
+
+                        <!-- card 1 -->
+                        <div class="bg-neutral-950 p-8 rounded-md w-[450px] mx-auto">
+                            <div>
+                                <!-- img -->
+                                <img src="img/post-1.avif" alt="" class="w-full object-cover h-80">
+
+                                <!-- tag -->
+                                <div class="flex flex-wrap items-center gap-2 max-w-[500px] mt-2">
+                                    <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr bxs-user'></i> Zeplin</a>
+                                    <span class="text-white">|</span>
+
+                                    <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bx-clock-9'></i> July 18, 2018</a>
+                                    <span class="text-white">|</span>
+
+                                    <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-price-tag'></i> Music</a>
+                                    <span class="text-white">|</span>
+
+                                    <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-message-bubble-reply'></i> 0 Comment</a>
+                                </div>
+
+                                <!-- title -->
+                                <div>
+                                    <h1 class="text-white font-semibold uppercase mt-5 mb-5">
+                                        Eric Johnson and Jonny Lang Lead 2014
+                                    </h1>
+
+                                    <hr class="border-white/10 my-5">
+
+                                    <!-- description -->
+                                    <p class="text-white/60">
+                                        Pastrami venison shankle tenderloin boudin prosciutto pork chop. Corned beef beef ribs short ribs, hamburger jerky rump sausage pork loin swine boudin jowl tri-tip chicken. Kielbasa spare ribs tenderloin meatloaf bacon strip steak, corned beef sirloin landjaeger. Ham salami biltong shoulder.
+
+                                    <!-- button -->
+                                    <div>
+                                        <button class="text-white font-semibold bg-violet-700 px-5 py-1.5 mt-5 rounded-md cursor-pointer shadow-2xl hover:bg-zinc-800 transition-all duration-300">
+                                            Read More
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- card 2 -->
+                        <div class="bg-neutral-950 p-8 rounded-md w-[450px] mx-auto">
+                            <div>
+                                <!-- img -->
+                                <img src="img/post-1.avif" alt="" class="w-full object-cover h-80">
+
+                                <!-- tag -->
+                                <div class="flex flex-wrap items-center gap-2 max-w-[500px] mt-2">
+                                    <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr bxs-user'></i> Zeplin</a>
+                                    <span class="text-white">|</span>
+
+                                    <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bx-clock-9'></i> July 18, 2018</a>
+                                    <span class="text-white">|</span>
+
+                                    <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-price-tag'></i> Music</a>
+                                    <span class="text-white">|</span>
+
+                                    <a href="#" class="text-white/50 flex items-center gap-2 hover:text-violet-700 transition-all"><i class='bxr  bxs-message-bubble-reply'></i> 0 Comment</a>
+                                </div>
+
+                                <!-- title -->
+                                <div>
+                                    <h1 class="text-white font-semibold uppercase mt-5 mb-5">
+                                        Eric Johnson and Jonny Lang Lead 2014
+                                    </h1>
+
+                                    <hr class="border-white/10 my-5">
+
+                                    <!-- description -->
+                                    <p class="text-white/60">
+                                        Pastrami venison shankle tenderloin boudin prosciutto pork chop. Corned beef beef ribs short ribs, hamburger jerky rump sausage pork loin swine boudin jowl tri-tip chicken. Kielbasa spare ribs tenderloin meatloaf bacon strip steak, corned beef sirloin landjaeger. Ham salami biltong shoulder.
+
+                                    <!-- button -->
+                                    <div>
+                                        <button class="text-white font-semibold bg-violet-700 px-5 py-1.5 mt-5 rounded-md cursor-pointer shadow-2xl hover:bg-zinc-800 transition-all duration-300">
+                                            Read More
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+
+                    <!-- sidebar -->
+                     <div class="col-span-1 space-y-6 w-full left-0 px-15 mx-10">
+
+                        <div class="bg-neutral-950 min-h-[50px] p-8">
+
+                            <input type="text" placeholder="Search..."
+                            class="w-full bg-white px-4 py-2">
+
+                        </div>
+
+                        <div class="bg-neutral-950 min-h-[50px] p-8">
+                            <h1 class="text-white">Recent Post</h1>
+                            <hr class="border-white/10 my-5">
+                            <div class="flex flex-col gap-3">                       
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Featured Image as Header</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Eric Johnson and Jonny Lang Lead 2014</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Kevin Drew’s second solo album</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Tickets To A Show With Nine Inch Nails</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Win A Guitar Signed By Soundgarden</a>
+                            </div>
+                        </div>
+
+                        <div class="bg-neutral-950 min-h-[50px] p-8">
+                            <h1 class="text-white">Recent Comment</h1>
+                            <hr class="border-white/10 my-5">
+                        </div>
+
+                        <div class="bg-neutral-950 min-h-[50px] p-8">
+                            <h1 class="text-white">Archives</h1>
+                            <hr class="border-white/10 my-5">
+                            <div class="flex flex-col gap-3">
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">July 2025</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">May 2025</a>
+                            </div>
+                        </div>
+
+                        <div class="bg-neutral-950 min-h-[50px] p-8">
+                            <h1 class="text-white">Categories</h1>
+                            <hr class="border-white/10 my-5">
+                            <div class="flex flex-col gap-3">
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Instrumental</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Jazz</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Music</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Pop Music</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300">Rock</a>
+                            </div>
+                        </div>
+
+                        <div class="bg-neutral-950 min-h-[50px] p-8">
+                            <h1 class="text-white">Meta</h1>
+                            <hr class="border-white/10 my-5">
+                            <div class="flex flex-col gap-3">
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300 ">Log In</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300 ">Entries feed</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300 ">Comments feed</a>
+                                <a href="" class="text-white hover:text-violet-700 transition-all duration-300 ">WordPress.org</a>
+                            </div>
+                            
+                        </div>
+
+
+                    
+                     </div>
+                </div>
