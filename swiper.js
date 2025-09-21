@@ -16,3 +16,17 @@ const swiper = new Swiper('.swiper', {
 
     effect: 'slide', // 'slide', 'cube', 'coverflow'
   });
+
+  const menuBtn = document.getElementById('menuBtn');
+  const sidebar = document.getElementById('sidebar');
+  const closeBtn = document.getElementById('closeBtn');
+
+  menuBtn.addEventListener('click', () => {
+    sidebar.classList.remove('translate-x-full');
+    sidebar.classList.add('translate-x-0');
+  });
+
+  closeBtn.addEventListener('click', () => {
+    sidebar.classList.remove('translate-x-0');
+    sidebar.classList.add('translate-x-full');
+  });
